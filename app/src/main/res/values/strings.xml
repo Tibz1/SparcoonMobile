@@ -1,29 +1,36 @@
 <resources>
     <string name="app_name">Sparcoon</string>
 
+    <!-- Bottom NavBar -->
+    <string name="bottom_home_item">Accueil</string>
+    <string name="bottom_patient_item">Patients</string>
+    <string name="bottom_car_item">Véhicules</string>
+    <string name="bottom_profile_item">Profil</string>
+
+
     <!-- Page de connexion -->
     <string name="sign_page_connecter">Se connecter</string>
 
+    <!-- Accueil -->
+    <string name="home_page_welcome">Bienvenue [Nom du soignant] !</string>
+
+    <!-- Page Mes patients -->
+    <string name="patient_page_title">Mes patients</string>
+    <string name="patient_page_recherche">Rechercher</string>
+    <string name="patient_page_bouton_ajouter">+ Ajouter</string>
+    <string name="patient_page_bouton_modifier">Modifier</string>
+
+    <!-- Vue d'un patient -->
+    <string name="patient_view_rubrique_adresse">Adresse :</string>
+    <string name="patient_view_bouton_traitement">Voir le traitement</string>
     <!-- Informations patient -->
     <string name="patient_info_name">Prénom et nom du patient</string>
     <string name="patient_info_adresse">Adresse du patient</string>
     <string name="patient_info_age">Age du patient</string>
-    <string name="patient_info_medic1">Médicament 1</string>
-    <string name="patient_info_medic2">Médicament 2</string>
-    <string name="patient_info_medic3">Médicament 3</string>
-    <string name="patient_info_medic4">Médicament 4</string>
 
-    <!-- Accueil -->
-    <string name="home_page_welcome">Bienvenue [Nom du soignant] !</string>
-    <string name="home_page_rubrique_client">Mes clients</string>
-
-    <!-- Vue patient -->
-    <string name="patient_view_rubrique_adresse">Adresse :</string>
-    <string name="patient_view_rubrique_traitement">Traitement :</string>
-    <string name="patient_view_traitement_matin">Matin</string>
-    <string name="patient_view_traitement_midi">Midi</string>
-    <string name="patient_view_traitement_soir">Soir</string>
-    <string name="pateint_view_calendar_button">Voir le calendrier</string>
+    <!-- Vue traitement -->
+    <string name="traitement_view_titre">Traitement de</string>
+    <string name="traitement_view_bouton_ajouter">Ajouter un médicament</string>
 
 
 </resources>

@@ -4,7 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/drawable-anydpi/ic_star.xml" value="0.1" />
+        <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/drawable/bottom_nav_color.xml" value="0.1" />
+        <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/drawable/ic_launcher_background.xml" value="0.133" />
         <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.1" />
       </map>
     </option>
   </component>
