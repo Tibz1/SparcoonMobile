@@ -10,27 +10,98 @@
 
     <!-- Page de connexion -->
     <string name="sign_page_connecter">Se connecter</string>
+    <string name="sign_page_mail_case">Se connecter</string>
+    <string name="sign_page_pw_case">Se connecter</string>
 
     <!-- Accueil -->
-    <string name="home_page_welcome">Bienvenue [Nom du soignant] !</string>
+    <string name="home_page_favoris">Mes favoris</string>
+    <string name="home_page_dernier_vehicule">Derniers véhicules</string>
+    <string name="home_page_item_vehicule_name">Nom du véhicule</string>
+    <string name="home_page_item_vehicule_immat">Immatriculation</string>
 
-    <!-- Page Mes patients -->
+    <!-- Ajouter un véhicule -->
+    <string name="vehicule_add_page_title">Ajouter un véhicule</string>
+    <string name="vehicule_add_page_name_rubrique">Nom du véhicule :</string>
+    <string name="vehicule_add_page_immat_rubrique">Immatriculation :</string>
+    <string name="vehicule_add_page_modele_rubrique">Modèle :</string>
+    <string name="vehicule_add_page_year_rubrique">Année :</string>
+    <string name="vehicule_add_page_energy_rubrique">Énergie :</string>
+    <string name="vehicule_add_page_critair_rubrique">Crit\'Air :</string>
+    <string name="vehicule_add_page_picture_rubrique">Photos :</string>
+    <string name="vehicule_add_page_add_button">Ajouter le véhicule</string>
+
+
+    <!-- Vue d'un véhicule -->
+    <string name="vehicule_view_name_rubrique">Nom du véhicule :</string>
+    <string name="vehicule_view_immat_rubrique">Immatriculation :</string>
+    <string name="vehicule_view_model_rubrique">Modèle :</string>
+    <string name="vehicule_view_year_rubrique">Année :</string>
+    <string name="vehicule_view_energy_rubrique">Énergie :</string>
+    <string name="vehicule_view_critair_rubrique">Crit\'Air :</string>
+    <string name="vehicule_view_picture_rubrique">Photos :</string>
+    <string name="vehicule_view_sacve_button">Enregistrer les modifications</string>
+    <string name="vehicule_view_historique_button">Voir l\'historique</string>
+    <string name="vehicule_view_depense_button">Voir les dépenses</string>
+    <string name="vehicule_view_delete_button">Supprimer le véhicule</string>
+
+    <!-- Vue de l'historique d'un véhicule -->
+    <string name="historique_view_title_page">Historique de [Nom du véhicule]</string>
+    <string name="historique_view_add_button">+ Ajouter</string>
+    <string name="historique_view_search_bar">Rechercher</string>
+    <string name="historique_view_date_column">Date</string>
+    <string name="historique_view_name_column">Nom du soignant</string>
+    <string name="historique_view_start_column">Km au départ</string>
+    <string name="historique_view_finish_column">Km à l\'arrivée</string>
+    <string name="historique_view_modify_button">Modifier</string>
+
+    <!-- Ajout d'une utilisation -->
+    <string name="utilisation_add_page_title">Ajouter une utilisation</string>
+    <string name="utilisation_add_page_date_rubrique">Date :</string>
+    <string name="utilisation_add_page_name_rubrique">Nom du soignant :</string>
+    <string name="utilisation_add_page_start_rubrique">Km au départ :</string>
+    <string name="utilisation_add_page_finish_rubrique">km à l\'arrivée :</string>
+    <string name="utilisation_add_page_add_button">Ajouter</string>
+
+    <!-- Modifier une utilisation -->
+    <string name="utilisation_modify_page_title">Modifier utilisation de [nom soignant] le [date]</string>
+    <string name="utilisation_modify_page_date_rubrique">Date :</string>
+    <string name="utilisation_modify_page_name_rubrique">Nom du soignant :</string>
+    <string name="utilisation_modify_page_start_rubrique">Km au départ :</string>
+    <string name="utilisation_modify_page_finish_rubrique">km à l\'arrivée :</string>
+    <string name="utilisation_modify_page_exemple_content">Exemple</string>
+    <string name="utilisation_modify_page_save_button">Enregistrer les modifications</string>
+
+    <!-- Accueil
+        <string name="home_page_welcome">Bienvenue !</string>
+        <string name="home_page_patient_bouton">Mes patients</string>
+        <string name="home_page_vehicule_bouton">Mes véhicules</string>
+        <string name="home_page_profil_bouton">Mon profil</string>-->
+
+    <!-- Page Mes véhicules
+    <string name="vehicule_page_title">Mes véhicules</string>
+    <string name="vehicule_page_search_bar">Rechercher</string>
+    <string name="vehicule_page_modif_button">Modifier</string>
+    <string name="vehicule_page_add_button">Ajouter un véhicule</string>
+    <string name="vehicule_page_item_vehicule_name">Nom du véhicule</string>
+    <string name="vehicule_page_item_vehicule_immat">Immatriculation</string>-->
+
+    <!-- Page Mes patients
     <string name="patient_page_title">Mes patients</string>
     <string name="patient_page_recherche">Rechercher</string>
     <string name="patient_page_bouton_ajouter">+ Ajouter</string>
     <string name="patient_page_bouton_modifier">Modifier</string>
 
-    <!-- Vue d'un patient -->
+    &lt;!&ndash; Vue d'un patient &ndash;&gt;
     <string name="patient_view_rubrique_adresse">Adresse :</string>
     <string name="patient_view_bouton_traitement">Voir le traitement</string>
-    <!-- Informations patient -->
+    &lt;!&ndash; Informations patient &ndash;&gt;
     <string name="patient_info_name">Prénom et nom du patient</string>
     <string name="patient_info_adresse">Adresse du patient</string>
     <string name="patient_info_age">Age du patient</string>
 
-    <!-- Vue traitement -->
+    &lt;!&ndash; Vue traitement &ndash;&gt;
     <string name="traitement_view_titre">Traitement de</string>
-    <string name="traitement_view_bouton_ajouter">Ajouter un médicament</string>
+    <string name="traitement_view_bouton_ajouter">Ajouter un médicament</string>-->
 
 
 </resources>

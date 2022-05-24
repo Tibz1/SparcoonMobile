@@ -9,7 +9,7 @@
         android:title="@string/bottom_patient_item"
         android:icon="@drawable/ic_patient"/>
     <item
-        android:id="@+id/car_page"
+        android:id="@+id/vehicule_page"
         android:title="@string/bottom_car_item"
         android:icon="@drawable/ic_car"/>
     <item
