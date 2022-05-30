@@ -2,7 +2,6 @@ package fr.thibaud.sparcoon
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import fr.thibaud.sparcoon.fragments.ConnexionFragment
 import fr.thibaud.sparcoon.fragments.HomeFragment
 
 
@@ -11,11 +10,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //Injecter le fragment dans la boite (fragment_container)
-        val transaction = supportFragmentManager.beginTransaction()
-        transaction.replace(R.id.fragment_container, ConnexionFragment(this))
-        transaction.addToBackStack(null)
-        transaction.commit()
+        //Charger le vehiculeRepository
+        val repo=VehiculeRepository()
+
+        //Mettre à jour la liste de véhicules
+        repo.updateData{
+            //Injecter le fragment dans la boite (fragment_container) après que la liste de véhicule est chargée
+            val transaction = supportFragmentManager.beginTransaction()
+            transaction.replace(R.id.fragment_container, HomeFragment(this))
+            transaction.addToBackStack(null)
+            transaction.commit()
+        }
 
     }
 }

@@ -32,12 +32,14 @@
 
 
     <!-- Vue d'un véhicule -->
-    <string name="vehicule_view_name_rubrique">Nom du véhicule :</string>
-    <string name="vehicule_view_immat_rubrique">Immatriculation :</string>
     <string name="vehicule_view_model_rubrique">Modèle :</string>
+    <string name="vehicule_view_model_exemple">modele</string>
     <string name="vehicule_view_year_rubrique">Année :</string>
+    <string name="vehicule_view_year_exemple">annee</string>
     <string name="vehicule_view_energy_rubrique">Énergie :</string>
+    <string name="vehicule_view_energy_exemple">energie</string>
     <string name="vehicule_view_critair_rubrique">Crit\'Air :</string>
+    <string name="vehicule_view_critair_exemple">critair</string>
     <string name="vehicule_view_picture_rubrique">Photos :</string>
     <string name="vehicule_view_sacve_button">Enregistrer les modifications</string>
     <string name="vehicule_view_historique_button">Voir l\'historique</string>

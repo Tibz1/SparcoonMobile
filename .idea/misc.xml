@@ -6,11 +6,13 @@
         <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/drawable-anydpi/ic_star.xml" value="0.1" />
         <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/drawable/bottom_nav_color.xml" value="0.1" />
         <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/drawable/ic_launcher_background.xml" value="0.133" />
+        <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/drawable/ic_utilisation.xml" value="0.1955" />
         <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/layout/fragment_connexion.xml" value="0.1" />
         <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/layout/fragment_home.xml" value="0.33" />
         <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/layout/fragment_home_old.xml" value="0.3625" />
         <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/layout/fragment_vehicule.xml" value="0.26875" />
+        <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/layout/fragment_vehicule_detail.xml" value="0.26875" />
         <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/layout/item_horizontal_vehicule.xml" value="0.3625" />
         <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/layout/item_vertical_vehicule.xml" value="0.3625" />
         <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/layout/item_vertical_vehicules.xml" value="0.5" />

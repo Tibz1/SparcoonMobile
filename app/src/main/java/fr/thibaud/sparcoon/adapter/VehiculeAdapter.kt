@@ -8,12 +8,10 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import fr.thibaud.sparcoon.MainActivity
-import fr.thibaud.sparcoon.R
-import fr.thibaud.sparcoon.VehiculeModel
+import fr.thibaud.sparcoon.*
 
 class VehiculeAdapter(
-    private val context: MainActivity,
+    val context: MainActivity,
     private val vehiculeList: List<VehiculeModel>,
     private val layoutId: Int
     ) : RecyclerView.Adapter<VehiculeAdapter.ViewHolder>() {
@@ -40,6 +38,9 @@ class VehiculeAdapter(
         //Récupérer les informations du véhicule à la position
         val currentVehicule = vehiculeList[position]
 
+        //Récupérer le repository
+        val repo = VehiculeRepository()
+
         //Utiliser Glide pour récupérer l'image à partir de son lien -> composant
         Glide.with(context).load(Uri.parse(currentVehicule.imageUrl)).into(holder.vehiculeImage)
 
@@ -47,7 +48,7 @@ class VehiculeAdapter(
         holder.vehiculeName?.text = currentVehicule.name
 
         //Mettre à jour immatriculation du véhicule
-        holder.vehiculeImmat?.text = currentVehicule.immatriculation
+        holder.vehiculeImmat?.text = currentVehicule.immat
 
         //Vérifier si le véhicule est liké
         if(currentVehicule.liked){
@@ -55,6 +56,20 @@ class VehiculeAdapter(
         }
         else{
             holder.starIcon.setImageResource(R.drawable.ic_unstar)
+        }
+
+        //Ajouter une intéraction sur l'étoile
+        holder.starIcon.setOnClickListener{
+            //Inverser si le bouton est like ou non
+            currentVehicule.liked = !currentVehicule.liked
+            //Mettre à jour l'objet vehicule
+            repo.updateVehicule(currentVehicule)
+        }
+
+        //Nouvelle interaction lors du click sur une plante
+        holder.itemView.setOnClickListener {
+            //Afficher la popuo
+            VehiculePopup(this, currentVehicule).show()
         }
 
     }
