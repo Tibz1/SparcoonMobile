@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "421106126032",
+    "project_id": "sparcoon",
+    "storage_bucket": "sparcoon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421106126032:android:e52f59bcc7275aea88e2d5",
+        "android_client_info": {
+          "package_name": "fr.thibaud.sparcoon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421106126032-ie7edfiqk9mdlgjn6qfsunfser9lmm7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRSGMFsosPVISQ3_OlqOXngIzmtt2O2oc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421106126032-ie7edfiqk9mdlgjn6qfsunfser9lmm7e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -2,6 +2,7 @@ package fr.thibaud.sparcoon
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import fr.thibaud.sparcoon.fragments.ConnexionFragment
 import fr.thibaud.sparcoon.fragments.HomeFragment
 
 
@@ -12,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         //Injecter le fragment dans la boite (fragment_container)
         val transaction = supportFragmentManager.beginTransaction()
-        transaction.replace(R.id.fragment_container, HomeFragment(this))
+        transaction.replace(R.id.fragment_container, ConnexionFragment(this))
         transaction.addToBackStack(null)
         transaction.commit()
 
