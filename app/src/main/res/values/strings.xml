@@ -3,9 +3,8 @@
 
     <!-- Bottom NavBar -->
     <string name="bottom_home_item">Accueil</string>
-    <string name="bottom_patient_item">Patients</string>
     <string name="bottom_car_item">Véhicules</string>
-    <string name="bottom_profile_item">Profil</string>
+    <string name="bottom_add_item">Ajouter</string>
 
 
     <!-- Page de connexion -->
@@ -21,13 +20,22 @@
 
     <!-- Ajouter un véhicule -->
     <string name="vehicule_add_page_title">Ajouter un véhicule</string>
-    <string name="vehicule_add_page_name_rubrique">Nom du véhicule :</string>
-    <string name="vehicule_add_page_immat_rubrique">Immatriculation :</string>
-    <string name="vehicule_add_page_modele_rubrique">Modèle :</string>
-    <string name="vehicule_add_page_year_rubrique">Année :</string>
-    <string name="vehicule_add_page_energy_rubrique">Énergie :</string>
-    <string name="vehicule_add_page_critair_rubrique">Crit\'Air :</string>
-    <string name="vehicule_add_page_picture_rubrique">Photos :</string>
+    <string name="vehicule_add_page_picture_button">Charger une image</string>
+    <string name="vehicule_add_page_name_rubrique">Nom du véhicule</string>
+    <string name="vehicule_add_page_immat_rubrique">Immatriculation</string>
+    <string name="vehicule_add_page_modele_rubrique">Modèle</string>
+    <string name="vehicule_add_page_year_rubrique">Année</string>
+    <string name="vehicule_add_page_energy_rubrique">Énergie</string>
+    <string name="vehicule_add_page_critair_rubrique">Crit\'Air</string>
+    <string-array name="vehicule_add_page_critair_list">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string name="vehicule_add_page_date_ajout_rubrique">Date d\'ajout</string>
     <string name="vehicule_add_page_add_button">Ajouter le véhicule</string>
 
 
@@ -40,23 +48,32 @@
     <string name="vehicule_view_energy_exemple">energie</string>
     <string name="vehicule_view_critair_rubrique">Crit\'Air :</string>
     <string name="vehicule_view_critair_exemple">critair</string>
-    <string name="vehicule_view_picture_rubrique">Photos :</string>
-    <string name="vehicule_view_sacve_button">Enregistrer les modifications</string>
-    <string name="vehicule_view_historique_button">Voir l\'historique</string>
+    <string name="vehicule_view_add_date_rubrique">Date d\'ajout :</string>
+    <string name="vehicule_view_add_date_exemple">Date d\'ajout</string>
     <string name="vehicule_view_depense_button">Voir les dépenses</string>
     <string name="vehicule_view_delete_button">Supprimer le véhicule</string>
 
-    <!-- Vue de l'historique d'un véhicule -->
-    <string name="historique_view_title_page">Historique de [Nom du véhicule]</string>
-    <string name="historique_view_add_button">+ Ajouter</string>
-    <string name="historique_view_search_bar">Rechercher</string>
-    <string name="historique_view_date_column">Date</string>
-    <string name="historique_view_name_column">Nom du soignant</string>
-    <string name="historique_view_start_column">Km au départ</string>
-    <string name="historique_view_finish_column">Km à l\'arrivée</string>
-    <string name="historique_view_modify_button">Modifier</string>
+    <!-- Liste des véhicules -->
+    <string name="vehicule_list_title">Tous les véhicules</string>
 
-    <!-- Ajout d'une utilisation -->
+
+
+
+
+
+<!--    &lt;!&ndash; Vue de l'historique d'un véhicule &ndash;&gt;-->
+<!--    <string name="historique_view_title_page">Historique de [Nom du véhicule]</string>-->
+<!--    <string name="historique_view_add_button">+ Ajouter</string>-->
+<!--    <string name="historique_view_search_bar">Rechercher</string>-->
+<!--    <string name="historique_view_date_column">Date</string>-->
+<!--    <string name="historique_view_name_column">Nom du soignant</string>-->
+<!--    <string name="historique_view_start_column">Km au départ</string>-->
+<!--    <string name="historique_view_finish_column">Km à l\'arrivée</string>-->
+<!--    <string name="historique_view_modify_button">Modifier</string>-->
+
+
+
+    <!-- Ajout d'une utilisation
     <string name="utilisation_add_page_title">Ajouter une utilisation</string>
     <string name="utilisation_add_page_date_rubrique">Date :</string>
     <string name="utilisation_add_page_name_rubrique">Nom du soignant :</string>
@@ -64,14 +81,14 @@
     <string name="utilisation_add_page_finish_rubrique">km à l\'arrivée :</string>
     <string name="utilisation_add_page_add_button">Ajouter</string>
 
-    <!-- Modifier une utilisation -->
+    &lt;!&ndash; Modifier une utilisation &ndash;&gt;
     <string name="utilisation_modify_page_title">Modifier utilisation de [nom soignant] le [date]</string>
     <string name="utilisation_modify_page_date_rubrique">Date :</string>
     <string name="utilisation_modify_page_name_rubrique">Nom du soignant :</string>
     <string name="utilisation_modify_page_start_rubrique">Km au départ :</string>
     <string name="utilisation_modify_page_finish_rubrique">km à l\'arrivée :</string>
     <string name="utilisation_modify_page_exemple_content">Exemple</string>
-    <string name="utilisation_modify_page_save_button">Enregistrer les modifications</string>
+    <string name="utilisation_modify_page_save_button">Enregistrer les modifications</string>-->
 
     <!-- Accueil
         <string name="home_page_welcome">Bienvenue !</string>

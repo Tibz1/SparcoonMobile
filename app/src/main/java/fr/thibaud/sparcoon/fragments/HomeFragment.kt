@@ -22,7 +22,7 @@ class HomeFragment(
 
         // Récupérer le premier recyclerview
         val horizontalRecyclerView = view.findViewById<RecyclerView>(R.id.horizontal_recycler_view)
-        horizontalRecyclerView.adapter = VehiculeAdapter(context, vehiculeList, R.layout.item_horizontal_vehicule)
+        horizontalRecyclerView.adapter = VehiculeAdapter(context, vehiculeList.filter { it.liked }, R.layout.item_horizontal_vehicule)
 
         // Récupérer le second recyclerview
         val verticalRecyclerView = view.findViewById<RecyclerView>(R.id.vertical_recycler_view)

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/default_margin">
+
+    <TextView
+        android:id="@+id/add_vehicule_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/item_margin"
+        android:text="@string/vehicule_add_page_title"
+        style="@style/Titre1TextStyle" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/vehicule_add_page_picture_button"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="@string/vehicule_add_page_picture_button"
+            style="@style/Titre2TextStyle"/>
+
+        <ImageView
+            android:id="@+id/vehicule_add_page_picture_preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_image"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/vehicule_add_page_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/item_margin"
+        android:hint="@string/vehicule_add_page_name_rubrique"
+        android:paddingStart="@dimen/default_margin"
+        style="@style/DefaultTextStyle"/>
+
+    <EditText
+        android:id="@+id/vehicule_add_page_immat_input"
+        style="@style/DefaultTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/item_margin"
+        android:hint="@string/vehicule_add_page_immat_rubrique"
+        android:paddingLeft="@dimen/default_margin" />
+
+    <EditText
+        android:id="@+id/vehicule_add_page_model_input"
+        style="@style/DefaultTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/item_margin"
+        android:hint="@string/vehicule_add_page_modele_rubrique"
+        android:paddingLeft="@dimen/default_margin" />
+
+    <EditText
+        android:id="@+id/vehicule_add_page_year_input"
+        style="@style/DefaultTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/item_margin"
+        android:hint="@string/vehicule_add_page_year_rubrique"
+        android:inputType="number"
+        android:paddingLeft="@dimen/default_margin" />
+
+    <EditText
+        android:id="@+id/vehicule_add_page_energy_input"
+        style="@style/DefaultTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/item_margin"
+        android:hint="@string/vehicule_add_page_energy_rubrique"
+        android:paddingLeft="@dimen/default_margin" />
+
+    <Spinner
+        android:id="@+id/vehicule_add_page_critair_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/item_margin"
+        android:entries="@array/vehicule_add_page_critair_list"
+        android:paddingLeft="@dimen/default_margin" />
+
+    <Button
+        android:id="@+id/vehicule_add_page_add_button"
+        style="@style/Titre2TextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/item_margin"
+        android:text="@string/vehicule_add_page_add_button" />
+
+
+</LinearLayout>

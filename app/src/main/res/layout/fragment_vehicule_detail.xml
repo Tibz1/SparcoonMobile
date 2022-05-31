@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="400dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="370dp"
     android:layout_height="550dp"
-    android:padding="@dimen/item_margin"
+    android:padding="15dp"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <androidx.cardview.widget.CardView
@@ -33,6 +34,15 @@
         app:layout_constraintStart_toEndOf="@id/detail_vehicule_cardview"
         app:layout_constraintTop_toTopOf="@id/detail_vehicule_cardview"
         style="@style/Titre1TextStyle"/>
+
+    <ImageView
+        android:id="@+id/detail_vehicule_star_button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_unstar"
+        app:layout_constraintBottom_toBottomOf="@+id/detail_vehicule_name"
+        app:layout_constraintStart_toEndOf="@+id/detail_vehicule_name"
+        android:layout_marginLeft="@dimen/item_margin"/>
 
     <TextView
         android:id="@+id/detail_vehicule_immat"
@@ -72,7 +82,8 @@
         android:layout_marginTop="@dimen/item_margin"
         android:text="@string/vehicule_view_model_exemple"
         app:layout_constraintStart_toStartOf="@+id/vehicule_view_model_rubrique"
-        app:layout_constraintTop_toBottomOf="@+id/vehicule_view_model_rubrique" />
+        app:layout_constraintTop_toBottomOf="@+id/vehicule_view_model_rubrique"
+        style="@style/DefaultTextStyle"/>
 
     <TextView
         android:id="@+id/vehicule_view_year_rubrique"
@@ -91,7 +102,8 @@
         android:layout_marginTop="@dimen/item_margin"
         android:text="@string/vehicule_view_year_exemple"
         app:layout_constraintStart_toStartOf="@+id/vehicule_view_year_rubrique"
-        app:layout_constraintTop_toBottomOf="@+id/vehicule_view_year_rubrique" />
+        app:layout_constraintTop_toBottomOf="@+id/vehicule_view_year_rubrique"
+        style="@style/DefaultTextStyle"/>
 
     <TextView
         android:id="@+id/vehicule_view_energy_rubrique"
@@ -110,7 +122,8 @@
         android:layout_marginTop="@dimen/item_margin"
         android:text="@string/vehicule_view_energy_exemple"
         app:layout_constraintStart_toStartOf="@+id/vehicule_view_energy_rubrique"
-        app:layout_constraintTop_toBottomOf="@+id/vehicule_view_energy_rubrique" />
+        app:layout_constraintTop_toBottomOf="@+id/vehicule_view_energy_rubrique"
+        style="@style/DefaultTextStyle"/>
 
     <TextView
         android:id="@+id/vehicule_view_critair_rubrique"
@@ -129,7 +142,9 @@
         android:layout_marginTop="@dimen/item_margin"
         android:text="@string/vehicule_view_critair_exemple"
         app:layout_constraintStart_toStartOf="@+id/vehicule_view_critair_rubrique"
-        app:layout_constraintTop_toBottomOf="@+id/vehicule_view_critair_rubrique" />
+        app:layout_constraintTop_toBottomOf="@+id/vehicule_view_critair_rubrique"
+        style="@style/DefaultTextStyle"/>
+
 
     <Button
         android:id="@+id/detail_vehicule_depense_button"
@@ -139,15 +154,17 @@
         android:layout_marginTop="@dimen/default_margin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/detail_vehicule_critair" />
+        app:layout_constraintTop_toBottomOf="@+id/detail_vehicule_critair"
+        style="@style/Titre2TextStyle"/>
 
     <Button
         android:id="@+id/detail_vehicule_delete_button"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/default_margin"
+        android:layout_marginTop="@dimen/item_margin"
         android:text="@string/vehicule_view_delete_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-         app:layout_constraintTop_toBottomOf="@+id/detail_vehicule_depense_button"/>
+         app:layout_constraintTop_toBottomOf="@+id/detail_vehicule_depense_button"
+        style="@style/Titre2TextStyle"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -68,7 +68,7 @@ class VehiculeAdapter(
 
         //Nouvelle interaction lors du click sur une plante
         holder.itemView.setOnClickListener {
-            //Afficher la popuo
+            //Afficher la popup
             VehiculePopup(this, currentVehicule).show()
         }
 

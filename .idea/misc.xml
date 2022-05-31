@@ -8,17 +8,22 @@
         <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/drawable/ic_launcher_background.xml" value="0.133" />
         <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/drawable/ic_utilisation.xml" value="0.1955" />
         <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/layout/fragment_add_vehicule.xml" value="0.3625" />
         <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/layout/fragment_connexion.xml" value="0.1" />
         <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/layout/fragment_home.xml" value="0.33" />
         <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/layout/fragment_home_old.xml" value="0.3625" />
         <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/layout/fragment_vehicule.xml" value="0.26875" />
         <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/layout/fragment_vehicule_detail.xml" value="0.26875" />
+        <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/layout/fragment_vehicule_list.xml" value="0.3625" />
         <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/layout/item_horizontal_vehicule.xml" value="0.3625" />
         <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/layout/item_vertical_vehicule.xml" value="0.3625" />
         <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/layout/item_vertical_vehicules.xml" value="0.5" />
         <entry key="..\:/Users/thiba/AndroidStudioProjects/Sparcoon/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.1" />
       </map>
     </option>
+  </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ic_search.xml" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
